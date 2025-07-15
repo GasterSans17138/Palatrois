@@ -1,4 +1,6 @@
-# RTS AI Utility System – README
+# Palatrois – README
+
+**Auteurs** : Ce projet a été fait par 3 programmeurs : Eliot Nerrand, François Lahalle et Marius Piris.
 
 ## Architecture Overview
 
@@ -99,7 +101,7 @@
 ## Sources & Inspirations
 
 - **Félix Becaud**
-  - Merci à Félix pour ses précieux conseils.
+  - Merci à Félix Becaud pour ses précieux conseils.
   
 - **Utility Theory & Infinite Axis Utility System (IAUS)**
   - Documentation, articles, et GDC talks sur les systèmes d’utility pour l’IA de jeu vidéo.
