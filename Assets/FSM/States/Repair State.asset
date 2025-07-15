@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55ed8bcbc9448d40b52c9739b9d61b4, type: 3}
+  m_Name: Repair State
+  m_EditorClassIdentifier: 
+  transitions:
+  - {fileID: 11400000, guid: beef382b988336c478c9c48d387fb83c, type: 2}

@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5883791782148086424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4996823076615904959}
+  - component: {fileID: 5587951038141540527}
+  - component: {fileID: 7902706034387872232}
+  - component: {fileID: 3943582860681370399}
+  - component: {fileID: 5508087414005088542}
+  m_Layer: 0
+  m_Name: AIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4996823076615904959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5883791782148086424}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5587951038141540527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5883791782148086424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f361e24ae60f5c8438582fd63c5eaeb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Team: 1
+  StartingBuildPoints: 15
+  _TotalBuildPoints: 0
+  unitList: []
+  selectedUnitList: []
+  FactoryList: []
+  SelectedFactory: {fileID: 0}
+  capturedTargets: []
+  SquadManager: {fileID: 0}
+  howManyGoapToInstantiate: 1
+  GOAPToInstantiate: {fileID: 1167012492820925052, guid: 5f66f2e248659e042b3b7390ed158d18,
+    type: 3}
+  utilitySystem: {fileID: 5508087414005088542}
+  AvailableSpots: []
+--- !u!114 &7902706034387872232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5883791782148086424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1caa444be0497a54787e15f9eb9b584e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  squadList: []
+  controller: {fileID: 0}
+--- !u!114 &3943582860681370399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5883791782148086424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da8da950f8241584385889abcbb4dd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  percentMapExplored: 0
+  resourceAvailability: 0
+  basePosition: {x: 0, y: 0, z: 0}
+  team: 0
+  updateInterval: 1
+--- !u!114 &5508087414005088542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5883791782148086424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6783bb1873be1499cb6366578c1470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldState: {fileID: 3943582860681370399}
+  goalDefinitions:
+  - {fileID: 11400000, guid: 30064356b7801dc438c2191cbb6a2f99, type: 2}
+  - {fileID: 11400000, guid: c1f16eb458f68904cae16d2fa9825762, type: 2}
+  - {fileID: 11400000, guid: 37a10ab70761fc44d830ee65dd385439, type: 2}
+  - {fileID: 11400000, guid: c201d284ba7df3e4ea435723149c0c2c, type: 2}
+  updateInterval: 2
+  goapAgents: []
